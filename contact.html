@@ -9,32 +9,45 @@
 <body>
   <center>
     <h1>Contact Page</h1>
+    <br>
+    <hr size = "3" noshade>
+    <table cellpadding = "10px">
+      <form action="mailto: psmohammedali4@gmail.com" method="post" enctype="text/plain">
+        <tr>
+          <td><label for="myName">Name:</label></td>
+
+          <td><input type="text" name="myName" value=""></td>
+        </tr>
+
+        <tr>
+          <td><label for="mygmail">Email Address</label></td>
+          <td><input type="email" name="mygmail" value=""></td>
+        </tr>
+
+        <tr>
+          <td><label for="gender">Gender</label></td>
+
+          <td><input type="radio" id="xyz" name="gender" value="male">
+            <label for="xyz">Male</label>
+            <input type="radio" id="abc" name="gender" value="female">
+            <label for="abc">Female</label>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="b">Date of Birth </label></td>
+          <td><input type="date" id = "b" name="dob" value=""></td>
+        </tr>
+        <tr>
+          <td><input type="submit" value="submit"></td>
+          <td><input type="reset" value="reset"></td>
+        </tr>
+
+    </form>
+    </table>
+    <hr size="3" noshade>
+    <br>
+    <a href="index.html">Back to Main Page</a>
   </center>
-  <form action="mailto: psmohammedali4@gmail.com" method="post" enctype="text/plain">
-    <label for="myName">Name:</label>
-    <input type="text" name="myName" value="">
-    <br>
-
-    <label for="mygmail">Email Address</label>
-    <input type="email" name="mygmail" value="">
-
-    <br>
-    <input type="radio" id = "xyz" name="gender" value="male">
-    <label for="xyz">Male</label>
-    <input type="radio" name="gender" value="female">
-    <label for="">Female</label>
-    <br>
-
-    <label for="dob">Date of Birth </label>
-    <input type="date" name="dob" value="">
-    <br>
-    <input type="submit" value="submit">
-    <input type="reset" value="reset">
-
-
-  </form>
-  <br>
-  <a href="index.html">Back to Main Page</a>
 
 </body>
 
