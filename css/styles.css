@@ -1,0 +1,32 @@
+
+body
+{
+  background-color: #EEEEEE;
+}
+hr
+{
+  /* background-color: inherit; */
+  background-color: transparent;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #11999E;
+  width:10%;
+  border-width: 10px;
+}
+
+h3,h1
+{
+  color: #40514E;
+}
+
+img:hover
+{
+  width: 200px;
+  height: 200px;
+}
+
+.link_hover:hover
+{
+  font-size: 30px;
+  color: red;
+}
